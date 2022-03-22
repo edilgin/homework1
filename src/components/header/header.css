@@ -1,19 +1,24 @@
 .main_container {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(220,220,220,0.3);
-    color: gray;
+    background-color: rgba(206, 188, 188, 0.3);
+    color: rgb(199, 69, 69);
     text-align: center;
     align-items: center;
     gap:1.5rem;
 }
 
+.button_container{
+    display: block;
+}
+
 .btn {
+    color: rgb(199, 69, 69);
     border-color: black;
     border-radius: 10rem;
     width: 5rem;
     height: 5rem;
     transition: 200ms ease;
+    font-size: 1.5rem;
+    margin: 2rem;
 }
 
 .btn:hover{
